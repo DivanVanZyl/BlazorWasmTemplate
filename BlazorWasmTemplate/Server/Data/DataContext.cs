@@ -9,6 +9,11 @@ namespace BlazorWasmTemplate.Server.Data
 
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+        }
+
         public DbSet<User> Users { get; set; }
     }
 }
