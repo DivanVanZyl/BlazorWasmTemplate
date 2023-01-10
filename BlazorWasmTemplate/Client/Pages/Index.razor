@@ -14,4 +14,12 @@ This is a template app, that has the below, essential features already implement
 
 <p>Please edit the mentioned features, to fit your needs, and add the rest of the site.</p>
 
+<h3>To run EF Initial migration</h3>
+
+<ol>
+    <li>In the Developer Powershell console: Navigate to Server folder, then run the below commands.</li>
+    <li>dotnet ef migrations add InitialCreate --context DataContext</li>
+    <li>dotnet ef database update --context DataContext</li>
+</ol>
+
 <p>Hopefully this has saved you some time.</p>
